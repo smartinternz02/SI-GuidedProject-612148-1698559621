@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASL Recognition Result</title>
+        <link rel="stylesheet" type="text/css" href="..\static\css\style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar">
+        <h1 class="logo">Americal Sign Langauge (ASL)</h1>
+        <div class="buttons">
+            <button onclick="window.location.href = 'index.html'" class="button" >Go Home</button>
+        </div>
+    </div>
+    <center style="margin-top:200px;">
+        <h1>ASL Sign Recognition Result:</h1>
+        <p>Predicted Sign: {{ pred }}</p>
+    </center>
+    <img style="position: absolute; right: 50px;" src="https://i.pinimg.com/originals/8a/37/c4/8a37c4a20a62255188ff2b5ffebfbec6.gif" height="350px">
+</body>
+</html>
